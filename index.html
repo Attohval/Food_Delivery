@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valentine Attoh | VtechFood</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HEADER / NAVIGATION -->
+  <header>
+    <nav class="navbar">
+      <div><a href="#home" class="logo">VtechFood</a></div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#order" id="order-btn">Order Now</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Delicious Food, Delivered Fast</h1>
+      <p>Order from your favorite restaurants and get it delivered to your doorstep in minutes.</p>
+      <a href="#menu" class="hero-btn">View Menu</a>
+    </div>
+    <div class="hero-image">
+      <img src="media/food_bg.jpg" alt="Delicious food" />
+    </div>
+  </section>
+
+  <!-- MENU SECTION -->
+  <section class="menu" id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-grid">
+
+       <div class="menu-item">
+        <img src="media/food12.jpg" alt="Salad" />
+        <h3>FoodName</h3>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+      <div class="menu-item">
+        <img src="media/food10.jpg" alt="Salad" />
+        <h3>FoodName</h3>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+       <div class="menu-item">
+        <img src="media/food6.jpg" alt="Pizza" />
+        <h3>FoodName</h3>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+      <div class="menu-item">
+        <img src="media/food1.jpg" alt="Sushi" />
+        <h3>FoodName</h3>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+      <div class="menu-item">
+        <img src="media/food7.jpg" alt="Salad" />
+        <h3>FoodName</h3>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+            <div class="menu-item">
+        <img src="media/food14.jpg" alt="Salad" />
+        <h3>FoodName</h3>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+       <div class="menu-item">
+        <img src="media/food15.jpg" alt="Salad" />
+        <h3>FoodName</h3>
+        <p>Lorem, ipsum dolor.</p>
+       </div>
+      <div class="menu-item">
+        <img src="media/food5.jpg" alt="Sushi" />
+        <h3>FoodName</h3>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+      <div class="menu-item">
+        <img src="media/food16.jpg" alt="Sushi" />
+        <h3>FoodName</h3>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+      <div class="menu-item">
+        <img src="media/food6.jpg" alt="Pizza" />
+        <h3>FoodName</h3>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+      <div class="menu-item">
+        <img src="media/food1.jpg" alt="Sushi" />
+        <h3>FoodName</h3>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+      <div class="menu-item">
+        <img src="media/food7.jpg" alt="Salad" />
+        <h3>FoodName</h3>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+      <div class="menu-item">
+        <img src="media/food8.jpg" alt="Salad" />
+        <h3>FoodName</h3>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+      <div class="menu-item">
+        <img src="media/food9.jpg" alt="Salad" />
+        <h3>FoodName</h3>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+      <div class="menu-item">
+        <img src="media/food10.jpg" alt="Salad" />
+        <h3>FoodName</h3>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+      <div class="menu-item">
+        <img src="media/food11.jpg" alt="Salad" />
+        <h3>FoodName</h3>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+      <div class="menu-item">
+        <img src="media/food12.jpg" alt="Salad" />
+        <h3>FoodName</h3>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+      <div class="menu-item">
+        <img src="media/food13.jpg" alt="Salad" />
+        <h3>FoodName</h3>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+      <div class="menu-item">
+        <img src="media/food14.jpg" alt="Salad" />
+        <h3>FoodName</h3>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+      <div class="menu-item">
+        <img src="media/food15.jpg" alt="Salad" />
+        <h3>FoodName</h3>
+        <p>Lorem, ipsum dolor.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about" id="about">
+    <div class="about-content">
+      <h2>About VtechFood</h2>
+      <p>
+        We connect you with top restaurants in your area and deliver food quickly with no hassle. At QuickBite, we prioritize fast service, quality meals, and customer satisfaction.
+      </p>
+    </div>
+    <div class="about-image">
+      <img src="media/delivery1.jpg" alt="Delivery scooter" />
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form action="#">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- ORDER SECTION -->
+  <section class="order" id="order">
+    <h2>Place Your Order</h2>
+    <form action="#">
+      <input type="text" placeholder="Your Address" required />
+      <input type="text" placeholder="Phone Number" required />
+      <select required>
+        <option value="">Select Item</option>
+        <option value="Pizza">Item_1</option>
+        <option value="Burger">Item_2</option>
+        <option value="Sushi">Item_3</option>
+        <option value="Salad">Item_4</option>
+        <option value="Salad">Item_5</option>
+        <option value="Salad">Item_6</option>
+      </select>
+      <input type="number" placeholder="Quantity" min="1" required />
+      <button type="submit">Confirm Order</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy;2025 VtechFood. 08068578671</p>
+  </footer>
+
+  <!-- JAVASCRIPT FOR MOBILE MENU -->
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById('navLinks');
+      nav.classList.toggle('show');
+    }
+  </script>
+</body>
+</html>
